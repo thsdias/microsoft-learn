@@ -1,0 +1,7 @@
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\AlpineSkiHouse.exe
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\AlpineSkiHouse.dll
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\AlpineSkiHouse.deps.json
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\AlpineSkiHouse.runtimeconfig.json
+D:\SourceControl\Git\microsoft-learn\modulos\web-aspnet-core\AlpineSkiHouse\obj\Release\net8.0\PubTmp\Out\AlpineSkiHouse.pdb
