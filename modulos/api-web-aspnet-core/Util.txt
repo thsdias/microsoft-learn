@@ -1,0 +1,56 @@
+
+* ContosoPizzaAPI:
+
+- https://learn.microsoft.com/pt-br/training/modules/build-web-api-aspnet-core/
+
+/*
+    Esse comando cria os arquivos de um projeto básico de API Web que usa controladores, 
+    juntamente com um arquivo de projeto em C# chamado ContosoPizza.csproj que retornará uma 
+    lista de previsões meteorológicas.
+    http://localhost/swagger/index.html
+*/
+> dotnet new webapi -controllers -f net8.0 
+
+
+// APIs com o REPL HTTP
+
+- https://learn.microsoft.com/pt-br/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api
+
+> dotnet tool install -g Microsoft.dotnet-httprepl
+
+// Connect API
+/*
+    Se a HttpRepl ferramenta avisar Não é possível encontrar uma descrição OpenAPI, 
+    a causa mais provável é um certificado de desenvolvimento não confiável. HttpRepl 
+    requer uma conexão confiável. Antes de continuar, você deveconfigurar seu sistema para 
+    confiar no certificado de desenvolvimento com dotnet dev-certs https --trust
+
+    Help Erro certificado: https://ochuwa-sophie.medium.com/unable-to-find-an-openapi-description-error-in-net-6-repl-cli-tool-ef83f654f2b7
+*/
+> httprepl https://localhost:{PORT}
+Or
+> connect https://localhost:{PORT}
+
+
+- GET:
+> get
+> get {id}
+
+- POST:
+> post -c "{"name":"Hawaii", "isGlutenFree":false}"
+
+- PUT:
+> put 3 -c  "{"id": 3, "name":"Hawaiian", "isGlutenFree":false}"
+
+- DELETE:
+> delete {id}
+
+
+
+* Testar APIs Web com HttpRepl:
+- https://learn.microsoft.com/pt-br/aspnet/core/web-api/http-repl/?view=aspnetcore-8.0&tabs=windows
+
+
+* Usar arquivos .http no Visual Studio:
+- https://learn.microsoft.com/pt-br/aspnet/core/test/http-files?view=aspnetcore-8.0
+
